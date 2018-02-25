@@ -1,0 +1,30 @@
+#!/bin/bash
+
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.8" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.7" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.6" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.5" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.4" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.3" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.2" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-0.1" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "0" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "0.1" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "0.2" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "0.3" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "0.4" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "0.5" &
+sleep 4 

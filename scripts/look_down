@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rostopic pub -1 /ptu/cmd_tilt std_msgs/Float64 -- "-0.8"

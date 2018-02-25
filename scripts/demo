@@ -1,0 +1,13 @@
+#!/bin/bash
+
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-2.7" &
+sleep 4 
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "2.7" &
+sleep 6
+rostopic pub -1 /ptu/cmd_tilt std_msgs/Float64 "0.5" &
+sleep 2
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "-2.7" &
+sleep 6
+rostopic pub -1 /ptu/cmd_tilt std_msgs/Float64 -- "-0.5" &
+sleep 2
+rostopic pub -1 /ptu/cmd_pan std_msgs/Float64 -- "2.7"
